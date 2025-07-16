@@ -78,8 +78,6 @@ __all__ = (
     "InteractionContextType",
     "PollLayoutType",
     "MessageReferenceType",
-    "SubscriptionStatus",
-    "SeparatorSpacingSize",
 )
 
 
@@ -722,14 +720,6 @@ class ComponentType(Enum):
     role_select = 6
     mentionable_select = 7
     channel_select = 8
-    section = 9
-    text_display = 10
-    thumbnail = 11
-    media_gallery = 12
-    file = 13
-    separator = 14
-    content_inventory_entry = 16
-    container = 17
 
     def __int__(self):
         return self.value
@@ -1088,14 +1078,23 @@ class SubscriptionStatus(Enum):
     inactive = 2
 
 
-class SeparatorSpacingSize(Enum):
-    """A separator component's spacing size."""
+class NameplatePalette(Enum):
+    """A nameplate color palette.
 
-    small = 1
-    large = 2
+    .. versionadded:: 2.7
+    """
 
-    def __int__(self):
-        return self.value
+    crimson = "crimson"
+    berry = "berry"
+    sky = "sky"
+    teal = "teal"
+    forest = "forest"
+    bubble_gum = "bubble_gum"
+    violet = "violet"
+    cobalt = "cobalt"
+    clover = "clover"
+    lemon = "lemon"
+    white = "white"
 
 
 T = TypeVar("T")
