@@ -2520,17 +2520,52 @@ of :class:`enum.Enum`.
 
         The subscription is inactive and the subscription owner is not being charged.
 
+.. class:: NameplatePalette
 
-.. class:: SeparatorSpacingSize
-
-    Represents the padding size around a separator component.
+    A nameplate color palette.
 
     .. versionadded:: 2.7
 
-    .. attribute:: small
+    .. attribute:: crimson
 
-        The separator uses small padding.
+        Crimson nameplate color palette.
 
-    .. attribute:: large
+    .. attribute:: berry
 
-        The separator uses large padding.
+        Berry nameplate color palette.
+
+    .. attribute:: sky
+
+        Sky nameplate color palette.
+
+    .. attribute:: teal
+
+        Teal nameplate color palette.
+
+    .. attribute:: forest
+
+        Forest nameplate color palette.
+
+    .. attribute:: bubble_gum
+
+        Bubble_gum nameplate color palette.
+
+    .. attribute:: violet
+
+        Violet nameplate color palette.
+
+    .. attribute:: cobalt
+
+        Cobalt nameplate color palette.
+
+    .. attribute:: clover
+
+        Clover nameplate color palette.
+
+    .. attribute:: lemon
+
+        Lemon nameplate color palette.
+
+    .. attribute:: white
+
+        White nameplate color palette.
